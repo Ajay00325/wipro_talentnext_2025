@@ -1,0 +1,20 @@
+package java_fundamentals;
+import java.util.*;
+public class que_20 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		
+		char ch=s.next().charAt(0);
+		if(ch>='A' && ch<='Z' || ch>='a' && ch<='z') {
+			System.out.println("Alphabet");
+		}
+		else if(ch>='0' && ch<='9') {
+			System.out.println("Numberic");
+		}
+		else {
+			System.out.println("Special character");
+		}
+	}
+
+}
